@@ -6,7 +6,7 @@ app.use(express.json());
 // 替换成你的信息
 const APP_ID = 'cli_a9272bac75789cc1';
 const APP_SECRET = 'jwHO5aCaaqvr1g8xKTpuLdBz2nmS7Zur';
-const OPENAI_KEY = 'sk-5q4r9HdPTJ5xurdN9LxPF9a3Qnhwio6hi6t4E0nRN4A4yVJW';
+const OPENAI_KEY = 'sk-nq8KjCcoQObfysj9tw75pDPPWosGg7Hggd7u3D21mbiUxMJ2';
 
 // 处理飞书 URL 验证
 app.post('/webhook', async (req, res) => {
